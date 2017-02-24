@@ -29,67 +29,57 @@ public class Runner extends PageModule {
 	 */
 	public static String takeInputFromUser() throws InterruptedException {
 
-		String[] page = { "Incoming Interstate Referral Search Results",
-				"Incoming Interstate Referral Detail",
-				"Incoming Interstate Referral Support Order Detail Page",
-				"Case Overview Page", "Interstate Case List Page",
-				"Interstate Case Detail Page",
-				"Generate Interstate Transaction Page",
-				"Interstate Transaction Search Results Page",
-				"Form Set Parameter Search Page",
-				"Intergovernmental Referral Request Search Results Page",
-				"Intergovernmental Referral Request Detail Page",
-				"Intergovernmental Status Request Search Page" };
+		String[] page = { "Page Name" };
 
 		String selectedPage = selectPage(page);
 
 		switch (selectedPage) {
-		case "Incoming Interstate Referral Search Results":
-			incomingInterstateReferralSearchResultsPage();
+		case "Page1":
+			Page1();
 			break;
 
-		case "Incoming Interstate Referral Detail":
-			incomingInterstateReferralDetailPage();
+		case "Page2":
+			Page2();
 			break;
 
-		case "Incoming Interstate Referral Support Order Detail Page":
-			IncomingInterstateReferralSupportOrderDetailPage();
+		case "Page3":
+			Page3();
 			break;
 
-		case "Case Overview Page":
-			caseSearchPage();
+		case "Page4":
+			Page4();
 			break;
 
-		case "Interstate Case List Page":
-			interstateCaseListPage();
+		case "Page5":
+			Page5();
 			break;
 
-		case "Interstate Case Detail Page":
-			interstateCaseDetailPage();
+		case "Page6":
+			Page6();
 			break;
 
-		case "Generate Interstate Transaction Page":
-			generateInterstateTransactionPage();
+		case "Page7":
+			Page7();
 			break;
 
-		case "Interstate Transaction Search Results Page":
-			interstateTransactionSearchResultsPage();
+		case "Page8":
+			Page8();
 			break;
 
-		case "Form Set Parameter Search Page":
-			formSetParameterSearchPage();
+		case "Page9":
+			Page9();
 			break;
 
-		case "Intergovernmental Referral Request Search Results Page":
-			intergovernmentalReferralRequestSearchResultsPage();
+		case "Page10":
+			Page10();
 			break;
 
-		case "Intergovernmental Referral Request Detail Page":
-			intergovernmentalReferralRequestDetailPage();
+		case "Page11":
+			Page11();
 			break;
 
-		case "Intergovernmental Status Request Search Page":
-			intergovernmentalStatusRequestSearchPage();
+		case "Page12":
+			Page12();
 			break;
 
 		default:
