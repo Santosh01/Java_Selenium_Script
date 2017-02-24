@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.Select;
  * There are <b>TWO</b> ways to access an Application:
  * 
  * <pre>
- *   1. UIT/PROD environment
+ *   1. UIT environment
  *   2. LOCAL Development Environment
  * </pre>
  * 
@@ -41,7 +41,7 @@ public class Initialization {
 	protected static String password  = "";
 
 	// Change this if driver is located in some other path
-	protected static String ieDriverPath = "C:\\rad_workspaces\\sdubey_RAD8_JAVA_Pgms\\libs\\IEDriverServer_Win32_2.53.1\\IEDriverServer.exe";
+	protected static String ieDriverPath = "";
 
 	// Can be enabled for Remote application
 	protected static String linkToOpen = "";
@@ -50,10 +50,8 @@ public class Initialization {
 	// protected static String linkToOpen = "";
 
 	// Incoming Interstate ReferralSearch Page, can be enabled for Remote application
-	protected static String link_For_Incomming_Interstate_Referral_Search_Page = "";
+	protected static String link_For_Page = "";
 
-	// Incoming Interstate ReferralSearch Page , can be enabled for Local application
-	// protected static String linkForIncommingInterstateReferralSearchPage = "";
 	
 	
 }
